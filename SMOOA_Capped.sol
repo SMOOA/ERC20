@@ -1,11 +1,10 @@
 pragma solidity ^0.4.24;
 
-
 /**
  * @title Capped token
  * @dev Mintable token with a token cap.
  */
-contract ERC20Capped is ERC20Mintable {
+contract SMOOACapped is SMOOAMintable {
 
   uint256 private _cap;
 
