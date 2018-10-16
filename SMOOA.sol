@@ -1,12 +1,12 @@
 pragma solidity ^0.4.24;
 
 /**
- * @title Standard ERC20 token
+ * Standard ERC20 token
  *
  * @dev Implementation of the basic standard token.
  * https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
  */
-contract ERC20 is IERC20 {
+contract SMOOA is IERC20 {
   using SafeMath for uint256;
 
   mapping (address => uint256) private _balances;
